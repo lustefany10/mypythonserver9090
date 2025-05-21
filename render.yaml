@@ -1,0 +1,7 @@
+services:
+  - type: worker
+    name: servidor-tcp
+    runtime: python
+    plan: free
+    buildCommand: ""
+    startCommand: bash start.sh
